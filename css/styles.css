@@ -1,3 +1,14 @@
+/*html, body {
+	margin:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(245,245,245);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	color: #5E5E5E;
+}*/
+
 #fullpage {
 	width: 1000px;
 	height: 100%;
@@ -5,7 +16,7 @@
 	margin: 0 auto;
 }
 
-.section-container {
+#section-container {
 	height: 100%;
 	position: relative;
 }
@@ -18,7 +29,7 @@
 	font-size: 50px;
 	font-weight: 300;
 	letter-spacing: 2px;
-	display: none;
+	/*display: none;*/
 }
 
 #mid-container-top {
@@ -28,7 +39,7 @@
 	left: 40%;
 	top: 15%;
 	text-align: center;
-	display: none;
+	/*display: none;*/
 }
 
 #left-container {
@@ -37,5 +48,16 @@
 	width: 30%;
 	top: 13%;
 	text-align: center;
-	display: none;
+	/*display: none;*/
 }
+
+#right-container {
+	position: absolute;
+	height: 50%;
+	width: 30%;
+	left: 70%;
+	top: 13%;
+	text-align: center;
+	/*display: none;*/
+}
+
