@@ -18,4 +18,19 @@ $(document).ready(function() {
 	    navigationTooltips: ['hello', 'about', 'projects', 'contact'],
 	    // autoScrolling: false,
 	});
+
+	//back to top button
+	$('#back-to-top').click(function() {
+		$.fn.fullpage.moveTo('');
+	});
+
+	$('#email').click(function() {
+		window.location = 'mailto:michael.domingo97@gmail.com'
+	});
+
+	$('#resume').click(function() {
+	//fix resume link
+		window.open('img/Resume.pdf')
+	});
+
 });
